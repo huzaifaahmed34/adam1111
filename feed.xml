@@ -18,20 +18,37 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style type="text/css"> 
-.ed923200ac8af2ca82ce2881bfcfadb7f:hover{
-background-size: 100% 100%!important;
-color:#fecbcf!important;
-background:#ffffff!important;
-background-repeat: no-repeat!important;
-background-position: 0 90%!important; 
-transition: background-size 0.2s ease-in!important;
+.c8349467c2da0bd927d63b29e23dbdca7{
+text-decoration: underline!important;
 }
-ul{
-list-style: circle;
+.td5adeec7c9d13082d44e3dc822d63cdb i:hover{
+background: black;
+color:#ffd2d6;
+border-radius: 50%;
+width:10mm;
+text-align:center;
+height:10mm;
 }
-footer ul{
-padding-left: 0px!important;
-list-style: none;
+footer a{
+color:  #7f7f7f!important;
+text-decoration: underline!important;
+}
+footer{
+padding-top:59.9px;
+padding-bottom:59.7px;
+}
+.td5adeec7c9d13082d44e3dc822d63cdb{
+font-size:19.7px;
+padding:10.5px;
+color: black;
+}
+.align-self-stretch{
+ms-flex-item-align: stretch!important;
+align-self: stretch!important;
+}
+.y385fafe5531dfff4908343d3ad862b3d{
+background: rgba(0,0,0,0.6);
+text-align: center;
 }
 *{
 font-family: '', sans-serif;
@@ -39,85 +56,68 @@ font-family: '', sans-serif;
 a{
 text-decoration: none!important;
 }
-footer{
-padding-top:59.9px;
-padding-bottom:60.5px;
+.nav-link{
+color: #101010 !important;
 }
-footer *{
-font-size:19px!important;
-color:#767676!important;
-line-height: 1.5;
-}
-li a{
-color: #ff5760;
-}
-.w8704fb9053c7e326a520ccd1c633ac7d{
-font-size:20.2px;
-padding:10.4px;
-color: black;
-}
-.btn-md{
-padding:14.6px 30px;
-border-radius: 0;
+footer ul{
+padding-left: 0px!important;
+list-style: none;
 }
 .navbar a{
-font-size: 17.8px;
+font-size: 18.3px;
 }
-.cae602e33f42b0fce3b698f1ac2ff779f{
-background: rgba(0,0,0,0.6);
-text-align: center;
+.btn-md{
+padding:15.1px 30.5px;
+border-radius: 0;
 }
 .underline .line{
 width: 5rem;
 height: 3px;
-background: linear-gradient(90deg, #aa94ff,#ff5e67);
+background: linear-gradient(90deg, #b19bff,#ff5a63);
 display: inline-block;
 }
-.w8704fb9053c7e326a520ccd1c633ac7d i{
+.display-2{
+font-size: 44.8px;
+}
+.u309f1a8b2c4125f379f12b449bc70969{
+background-color:#fe5270!important;
+border-color:#fe5270!important;
+color:#ffffff!important;
+}
+.y385fafe5531dfff4908343d3ad862b3d *{
+color:white!important;
+}
+.w72f4b0f603120a56efa80e6ccdf23a0d:hover{
+background-size: 100% 100%!important;
+color:#fecbcf!important;
+background:#ffffff!important;
+background-repeat: no-repeat!important;
+background-position: 0 90%!important; 
+transition: background-size 0.2s ease-in!important;
+}
+.nav-item{
+margin-top: 9.8px;
+margin-bottom: 9.7px;
+padding-left: 7.2px;
+padding-right: 6.7px;
+}
+.td5adeec7c9d13082d44e3dc822d63cdb i{
 border-radius: 50%;
 width: 10mm;
 text-align: center;
 line-height: 37px;
 height: 10mm;
 }
-.nav-link{
-color: #060606 !important;
+footer *{
+font-size:19px!important;
+color:#7f7f7f!important;
+line-height: 1.5;
 }
-.align-self-stretch{
-ms-flex-item-align: stretch!important;
-align-self: stretch!important;
+ul{
+list-style: circle;
 }
-footer a{
-color:  #767676!important;
-text-decoration: underline!important;
-}
-.x648e705a07a0e170eff64551bf8501f7{
-text-decoration: underline!important;
-}
-.e47ed9b1020a760269656b4338d107a5d{
-background-color:#fe5270!important;
-border-color:#fe5270!important;
-color:#ffffff!important;
-}
-.w8704fb9053c7e326a520ccd1c633ac7d i:hover{
-background: black;
-color:#ffd3d7;
-border-radius: 50%;
-width:10mm;
-text-align:center;
-height:10mm;
-}
-.display-2{
-font-size: 44.5px;
-}
-.nav-item{
-margin-top: 10.3px;
-margin-bottom: 9.7px;
-padding-left: 7.1px;
-padding-right: 7.3px;
-}
-.cae602e33f42b0fce3b698f1ac2ff779f *{
-color:white!important;
+li a{
+color: #ff626b;
 }
 </style>
 </head>
@@ -128,10 +128,10 @@ color:white!important;
 <img alt="" src="img/istockphoto-544452292-612x612.jpg"  width="100px" ></a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 <span class="navbar-toggler-icon"></span>
-</button><div class="collapse navbar-collapse" id="navbarSupportedContent">
-<ul class="align-items-center navbar-nav ml-auto">
-<li class="nav-item"><a class="nav-link ed923200ac8af2ca82ce2881bfcfadb7f" href="index.html"  >1</a></li><li class="nav-item"><a class="ed923200ac8af2ca82ce2881bfcfadb7f nav-link" href="2.html"  >2</a></li><li class="nav-item"><a class="ed923200ac8af2ca82ce2881bfcfadb7f nav-link" href="3.html"  >3</a></li><li class="nav-item">
-<a class="nav-link ed923200ac8af2ca82ce2881bfcfadb7f" href="about-us.html" rel="nofollow" >About Us</a></li>
+</button><div class="navbar-collapse collapse" id="navbarSupportedContent">
+<ul class="ml-auto navbar-nav align-items-center">
+<li class="nav-item"><a class="nav-link w72f4b0f603120a56efa80e6ccdf23a0d" href="index.html"  >1</a></li><li class="nav-item"><a class="nav-link w72f4b0f603120a56efa80e6ccdf23a0d" href="2.html"  >2</a></li><li class="nav-item"><a class="w72f4b0f603120a56efa80e6ccdf23a0d nav-link" href="3.html"  >3</a></li><li class="nav-item">
+<a class="nav-link w72f4b0f603120a56efa80e6ccdf23a0d" href="about-us.html" rel="nofollow" >About Us</a></li>
 </ul>
 </div>
 </nav>
@@ -201,12 +201,12 @@ This website is owned and published by:
 </div> 
 <footer>
 <div class="container">
-<div class="row justify-content-center align-center"> 
+<div class="align-center row justify-content-center"> 
 <div class="col-md-3">
 <ul>
-<li><a class="ed923200ac8af2ca82ce2881bfcfadb7f" href="sitemap.html" rel="nofollow">Sitemap</a></li>
-<li><a class="ed923200ac8af2ca82ce2881bfcfadb7f" href="privacy-policy.html" rel="nofollow">Privacy Policy</a></li>
-<li><a class="ed923200ac8af2ca82ce2881bfcfadb7f" href="about-us.html" rel="nofollow">About Us</a></li>
+<li><a class="w72f4b0f603120a56efa80e6ccdf23a0d" href="sitemap.html" rel="nofollow">Sitemap</a></li>
+<li><a class="w72f4b0f603120a56efa80e6ccdf23a0d" href="privacy-policy.html" rel="nofollow">Privacy Policy</a></li>
+<li><a class="w72f4b0f603120a56efa80e6ccdf23a0d" href="about-us.html" rel="nofollow">About Us</a></li>
 </ul></div></div></div>
 <hr>
 </div>
